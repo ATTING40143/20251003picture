@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "AI Web Translator",
+  "version": "1.0",
+  "description": "Uses Google Gemini AI to translate web pages.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
